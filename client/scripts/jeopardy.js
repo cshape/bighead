@@ -13,13 +13,13 @@ window.jeopardy = (function (jeopardy, buzzer, question) {
     jeopardy.final_jeopardy_responses_topic = "com.sc2ctl.jeopardy.final_jeopardy_responses";
     jeopardy.final_jeopardy_answer_topic = "com.sc2ctl.jeopardy.final_jeopardy_answers";
 
-    jeopardy.host = 'ws://' + window.location.hostname + ':8080/ws';
+    jeopardy.host = 'ws://' + window.location.hostname + ':9001/ws';
     jeopardy.buzz_display_time = 4500;
     jeopardy.admin_mode = false; // Sets admin mode, which will disable feedback like penalties, buzzbuttons, etc.
 
 
     var final_jeopardy_response = null;
-
+    var time2play = 0;
 
     var conn = new ab.Session(jeopardy.host,
         function () {
@@ -141,6 +141,15 @@ window.jeopardy = (function (jeopardy, buzzer, question) {
             content: content
         };
         conn.publish(jeopardy.final_jeopardy_topic, payload, [], [])
+        if (time2play == 0) {
+            time2play++;
+        } else if (time2play == 1) {
+            setTimeout(function(){ new Audio('../audio/final-song.mp3').play(); }, 10000);
+            time2play++; 
+        } else {
+            time2play++;
+        }
+        
     };
 
     jeopardy.attemptFinalJeopardyBet = function(playerName, bet) {
@@ -630,6 +639,7 @@ window.jeopardy = (function (jeopardy, buzzer, question) {
             console.error("Could not show daily double - modal is not defined!");
         }
         daily_double_modal.show('fast');
+        new Audio('../audio/dd-sound.mp3').play();
     }
 
     function hideDailyDouble(daily_double_modal)
