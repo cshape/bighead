@@ -4,7 +4,7 @@ Big Head (Jeopardy)
 This is a full-featured web application that allows a group of super-best-friends to play [Jeopardy!](http://www.jeopardy.com/) 
 games with each other. The application is implemented using [ReactPHP](http://reactphp.org/) and websockets.
 
-Cale speaking here. I got this open sourced from [the amazing project that Troy Pavlek made] (https://github.com/tpavlek/Jeopardy). Thanks, Troy!
+Cale speaking here. I got this open sourced from [the amazing project that Troy Pavlek made](https://github.com/tpavlek/Jeopardy). Thanks, Troy!
 
 Installation
 -------------
