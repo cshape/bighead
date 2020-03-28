@@ -146,6 +146,7 @@ window.jeopardy = (function (jeopardy, buzzer, question) {
         } else if (time2play == 1) {
             setTimeout(function(){ new Audio('../audio/final-song.mp3').play(); }, 10000);
             time2play++; 
+            console.log("let's hear that jeopardy song!");
         } else {
             time2play++;
         }
