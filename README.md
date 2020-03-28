@@ -1,4 +1,4 @@
-Bighead Slash Jep!
+Big Head (Jeopardy)
 =====================================
 
 This is a full-featured web application that allows a group of super-best-friends to play [Jeopardy!](http://www.jeopardy.com/) 
