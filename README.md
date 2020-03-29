@@ -1,8 +1,10 @@
-Depotwarehouse.net's Jeopardy Player
+Big Head (Jeopardy)
 =====================================
 
 This is a full-featured web application that allows a group of super-best-friends to play [Jeopardy!](http://www.jeopardy.com/) 
 games with each other. The application is implemented using [ReactPHP](http://reactphp.org/) and websockets.
+
+Cale speaking here. I got this open sourced from [the amazing project that Troy Pavlek made](https://github.com/tpavlek/Jeopardy). Thanks, Troy!
 
 Installation
 -------------
@@ -71,6 +73,8 @@ the user bet.
 
 All data about used questions and player scores are stored in the `$board` variable of the running `server.php`. If you wish
  to restart the game, kill this process and restart it, all running totals will be wiped.
+ 
+ To switch from round 1 to round 2, kill the server, edit the questions-rd2.json file with the updated scores from the first round, and then fire the server back up. The players should refresh their screens and all will be well. Maybe play some Alex Trebek highlights while your audience waits ;)
  
 > Note: Saving and returning to games is not currently supported. It is possible to manually edit the questions.json file to contain all state, however.
 This will be added in a future version.
