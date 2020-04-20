@@ -1547,7 +1547,7 @@ textarea {
 	float: left;
 	position: relative;
 	height: 100%;
-	background: #071174
+	background: #552583
 }
 
 .players-lower-third {
@@ -1623,7 +1623,7 @@ span.active-buzzer:after {
 	padding-top: .5rem;
 	padding-bottom: .5rem;
 	cursor: pointer;
-	background: #0a18a4;
+	background: #2d1f6e;
 	color: #fff;
 	box-shadow: 7px 2px 21px -2px rgba(0, 0, 0, .75);
 	margin-left: .5rem;
@@ -1633,6 +1633,7 @@ span.active-buzzer:after {
 .player h2 {
 	margin-top: 0;
 	margin-bottom: 0
+	font-size: 1.8em;
 }
 
 .player .img-wrapper {
@@ -1676,7 +1677,7 @@ span.active-buzzer:after {
 }
 
 .score {
-	font-size: 200%;
+	font-size: 2.5em;
 	font-weight: 700
 }
 
@@ -1688,7 +1689,7 @@ span.active-buzzer:after {
 	float: right;
 	display: inline-block;
 	width: calc(100% - 20rem);
-	background: #071174;
+	background: #552583;
 	height: 100%
 }
 
@@ -1744,9 +1745,9 @@ span.active-buzzer:after {
 	border: 3px solid #000;
 	height: 16%;
 	overflow: hidden;
-	background: #071174;
-	background: linear-gradient(180deg, #071174 0, #21296d);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#071174', endColorstr='#21296d', GradientType=0)
+	background: #552583;
+	background: linear-gradient(180deg, #552583 0, #301934);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#552583', endColorstr='#301934', GradientType=0)
 }
 
 .jeopardy-board .category .question.box {
@@ -1780,11 +1781,11 @@ span.active-buzzer:after {
 .answer,
 .answer .content {
 	font-size: 200%;
-	background: #6bacfa!important
+	background: #3E1810!important
 }
 
 .flex-ender {
-	color: #202899;
+	color: #7851a9;
 	-webkit-align-self: flex-end;
 	-ms-flex-item-align: end;
 	align-self: flex-end;
@@ -1827,7 +1828,7 @@ span.active-buzzer:after {
 	height: 100%;
 	padding: 2rem;
 	color: #fff;
-	background: #202899;
+	background: #7851a9;
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center
@@ -1891,7 +1892,7 @@ span.active-buzzer:after {
 	width: 100%;
 	padding: 2rem;
 	color: #fff;
-	background: #202899;
+	background: #7851a9;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
@@ -1926,7 +1927,7 @@ span.active-buzzer:after {
 	width: 100%;
 	padding: 2rem;
 	color: #fff;
-	background: #202899;
+	background: #7851a9;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
