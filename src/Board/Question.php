@@ -10,6 +10,8 @@ class Question implements Arrayable, Jsonable
 
     const CLUE_TYPE_TEXT = "text";
     const CLUE_TYPE_IMAGE = "img";
+    const CLUE_TYPE_VIDEO = "video";
+    const CLUE_TYPE_AUDIO = "audio";
     const CLUE_TYPE_DEFAULT = "text";
 
     protected $clue;
@@ -20,6 +22,7 @@ class Question implements Arrayable, Jsonable
      * The type of clue we're dealing with. Acceptable values are:
      * * "text" => a standard text clue
      * * "img" => We will display an image as the clue.
+     * * "video" => we will display a video as the clue.
      * @var string
      */
     protected $type;

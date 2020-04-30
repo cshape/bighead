@@ -31,18 +31,18 @@
             "type": "img"
         },
         {
-            "clue": "Tolkien's name for the \"Black Land\", the home of the bad guys",
+            "clue": "../audiovideo/darkness.mp4",
             "answer": "Mordor",
             "value": 600,
             "daily_double": false,
-            "type": "text"
+            "type": "video"
         },
         {
-            "clue": "Tolkien insisted on spelling this plural with a \"ves\", not an \"fs\" as in a 1937 Disney fairy tale title",
+            "clue": "../audiovideo/dieter.mp3",
             "answer": "dwarves",
             "value": 800,
             "daily_double": false,
-            "type": "text"
+            "type": "audio"
         },
         {
             "clue": "Tolkien used this Old English word for \"monster\" as a synonym for \"goblin\"",
