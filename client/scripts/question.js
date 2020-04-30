@@ -20,7 +20,7 @@ window.question = (function(question) {
     question.getClue = function()
     {
         if (question.isImageClue()) {
-            return "<img src='" + q.clue + "' />"
+            return "<img class='clueImage' src='" + q.clue + "' />"
         }
 
         return "<span>" + q.clue + "</span>";

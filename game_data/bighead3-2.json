@@ -2,20 +2,20 @@
     "contestants": [
         {
             "name": "Simon",
-            "score": 0
+            "score": 5200
         },
         {
             "name": "Lauren",
-            "score": 0
+            "score": 1600
         },
         {
             "name": "Jeff",
-            "score": 0
+            "score": 1200
         }
     ],
     "categories": [
         {
-            "name": "Weeds ",
+            "name": "Weeds",
             "questions": [
                 {
                     "clue": "If you’re lucky, you might find a four leaf one of these",

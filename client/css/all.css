@@ -1866,7 +1866,6 @@ span.active-buzzer:after {
 
 #question-display-modal .clue img {
 	max-width: 50%;
-	max-height: 50%;
 	margin: 0 auto
 }
 
@@ -1997,4 +1996,8 @@ a.player-choice {
 	.jeopardy-board .category .box {
 		font-size: 150%
 	}
+}
+
+.clueImage {
+	object-fit: cover;
 }
