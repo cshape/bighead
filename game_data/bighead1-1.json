@@ -20,7 +20,7 @@
             "clue": "../img/fill.jpg",
             "answer": "Gandalf",
             "value": 200,
-            "daily_double": false,
+            "daily_double": true,
             "type": "img"
         },
         {
