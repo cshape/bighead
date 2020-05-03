@@ -53,81 +53,81 @@
         }]
     },
     {
-        "name": "FOOD & DRINK",
+        "name": "Who Dunnit",
         "questions": [
         {
-            "clue": "Schweinknochel, a German favorite, are this animal's knuckles",
+            "clue": "../audiovideo/who1.mp3",
             "answer": "a pig",
             "value": 200,
             "daily_double": false,
-            "type": "text"
+            "type": "audio"
         },
         {
-            "clue": "Ocean Spray makes Cran-Cherry, Cran-Grape & Cran-this variety of orange",
+            "clue": "../audiovideo/who2.mp3",
             "answer": "tangerine",
             "value": 400,
             "daily_double": false,
-            "type": "text"
+            "type": "audio"
         },
         {
-            "clue": "Crudites are generally served with this 3-letter item, like baba ganoush or aioli",
+            "clue": "../audiovideo/who3.mp3",
             "answer": "a dip",
             "value": 600,
             "daily_double": false,
-            "type": "text"
+            "type": "audio"
         },
         {
-            "clue": "In 2010 Wendy's introduced natural-cut these with the skins on, sprinkled with sea salt",
+            "clue": "../audiovideo/who4.mp3",
             "answer": "(french) fries",
             "value": 800,
             "daily_double": false,
-            "type": "text"
+            "type": "audio"
         },
         {
-            "clue": "Meaning \"fresh\" in Spanish, this grapefruit soda was introduced in the 1960s",
+            "clue": "../audiovideo/who5.mp3",
             "answer": "Fresca",
             "value": 1000,
-            "daily_double": false,
-            "type": "text"
+            "daily_double": true,
+            "type": "audio"
         }]
     },
     {
-        "name": "AFRICAN AMERICANS",
+        "name": "Tokyo",
         "questions": [
         {
-            "clue": "In 2010 this Lakers guard became the youngest player in NBA history to reach 25,000 points",
+            "clue": "../audiovideo/jap1.mp4",
             "answer": "Kobe Bryant",
             "value": 200,
             "daily_double": false,
-            "type": "text"
+            "type": "video"
         },
         {
-            "clue": "On Forbes' 2008 list of the World's Most Powerful Women, this then Secretary of State ranked seventh",
+            "clue": "../audiovideo/jap2.mp4",
             "answer": "Condoleezza Rice",
             "value": 400,
             "daily_double": true,
-            "type": "text"
+            "type": "video"
         },
         {
-            "clue": "Of that bus incident in 1955, she once said, \"All I was doing was trying to get home from work\"",
+            "clue": "../audiovideo/jap3.mp4",
             "answer": "(Rosa) Parks",
             "value": 600,
             "daily_double": false,
-            "type": "text"
+            "type": "video"
         },
         {
-            "clue": "The first African American to win a Pulitzer Prize, Gwendolyn Brooks won in this category in 1950",
+            "clue": "../audiovideo/jap4.mp4",
             "answer": "Poetry",
             "value": 800,
             "daily_double": false,
-            "type": "text"
+            "type": "video"
         },
         {
-            "clue": "This astronomer & mathematician helped survey the land that became Washington, D.C.",
+            "clue": "../audiovideo/jap5.mp4",
             "answer": "(Benjamin) Banneker",
             "value": 1000,
             "daily_double": false,
-            "type": "text"
+            "type": "video"
         }]
     },
     {
