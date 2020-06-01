@@ -34,9 +34,9 @@ window.question = (function(question) {
         if (question.isImageClue()) {
             return "<img class='clueImage' src='" + q.clue + "' />"
         } else if (question.isVideoClue()) {
-            return `<video class='clueImage' autoplay><source src='${q.clue}' type='video/mp4'></video>`
+            return `<video class='clueImage' preload='auto' autoplay><source src='${q.clue}' type='video/mp4'></video>`
         } else if (question.isAudioClue()) {
-            return `<audio class='audioclue' autoplay><source src='${q.clue}' type='audio/mp3'></audio>`
+            return `<audio class='audioclue' preload='auto' autoplay><source src='${q.clue}' type='audio/mp3'></audio>`
             console.log("audio!")
         }
         return "<span>" + q.clue + "</span>";

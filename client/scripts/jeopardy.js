@@ -1,7 +1,6 @@
 // NOTE: buzzer.js *must* be included before this file.
 
 window.jeopardy = (function (jeopardy, buzzer, question) {
-
     jeopardy.buzzer_topic = 'com.sc2ctl.jeopardy.buzzer';
     jeopardy.buzzer_status_topic = 'com.sc2ctl.jeopardy.buzzer_status';
     jeopardy.question_display_topic = 'com.sc2ctl.jeopardy.question_display';
@@ -33,14 +32,12 @@ window.jeopardy = (function (jeopardy, buzzer, question) {
             conn.subscribe(jeopardy.final_jeopardy_topic, handleFinalJeopardy);
             conn.subscribe(jeopardy.final_jeopardy_responses_topic, handleFinalJeopardyResponses);
             conn.subscribe(jeopardy.final_jeopardy_answer_topic, handleFinalJeopardyAnswers);
-
         },
         function () {
             console.warn('WebSocket connection closed');
         },
         {'skipSubprotocolCheck': true}
     );
-
     /* These methods should be overridden */
 
     jeopardy.getStatusIndicatorElement = function () { console.warn("You need to override the getStatusIndicatorElement method!"); };
