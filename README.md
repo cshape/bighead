@@ -6,6 +6,13 @@ games with each other. The application is implemented using [ReactPHP](http://re
 
 Cale speaking here. I got this open sourced from [the amazing project that Troy Pavlek made](https://github.com/tpavlek/Jeopardy). Thanks, Troy!
 
+Demo
+-----
+
+This puppy cranked out an action-packed 13 episode season of Big Head during 2020 quarantine.
+
+* [Big Head Grand Finals](https://www.facebook.com/bigheadonline/videos/big-head-grand-finals-2020/324927955511202).
+
 Installation
 -------------
 
@@ -119,13 +126,6 @@ is the case, inform the user that using a potato as a modem is not supported beh
 
 Obviously this means that since the client is sending an authoritative delta of time it took them to buzz, if the client was
 malicious, they could win (or at least tie) every time. Don't play with dicks.
-
-Demo
------
-
-This puppy cranked out an action-packed 13 episode season of Big Head during 2020 quarantine.
-
-* [Big Head Grand Finals](https://www.facebook.com/bigheadonline/videos/big-head-grand-finals-2020/324927955511202).
 
 Testing
 --------
