@@ -123,9 +123,9 @@ malicious, they could win (or at least tie) every time. Don't play with dicks.
 Demo
 -----
 
-This system was built for a project called [Starcraft Jeopardy](https://sc2ctl.com/jeopardy). If you would like to see the system in action you can view one of those episodes:
+This puppy cranked out an action-packed 13 episode season of Big Head during 2020 quarantine.
 
-* [Episode 1](http://vods.sc2ctl.com/vod/2015/03/10/jeopardy-one-fenner-jackson-gemini/).
+* [Big Head Grand Finals](https://www.facebook.com/bigheadonline/videos/big-head-grand-finals-2020/324927955511202).
 
 Testing
 --------
